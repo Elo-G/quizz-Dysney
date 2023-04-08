@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/responsive.css" rel="stylesheet" type="text/css">
+    <title>QuizzDisney</title>
+</head>
+
+<body>
+
+    <!-- HEADER: ma bannière contenant le titre du jeu et l'image -->
+
+    <header>
+        <div id="banner">
+            <div id="donald">
+                <img src="images/donald-duck.png" alt="image de Donald Duck" width="150 px" height="150px">
+            </div>
+
+            <div id="containerH1">
+                <h1> Mon Super Quizz Disney </h1>
+               
+            </div>
+        </div>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <section> <!--contient "l'article  quizz" -->
+            <article id="Quizz">  <!--contient le quizz--> 
+                <div id="container-h2">
+                    <h2 id="Q"></h2>        <!--contient les questions--> 
+                </div>
+
+                <div id="container-buttonstyle">
+                    <div class="buttonstyle">
+                        <button class="choicereponse" onclick="reply(this)"> </button><!--les réponses s'affichent ds les button onclick-->   
+                        <button class="choicereponse" onclick="reply(this)"> </button>
+                    </div>
+
+                    <div class="buttonstyle">
+                        <button class="choicereponse" onclick="reply(this)"> </button>
+                        <button class="choicereponse" onclick="reply(this)"> </button>
+                    </div>
+                </div>
+
+                <div id="div-rep">
+                    <div id="theGoodanswerIs"> </div>  <!--commentaires adressés au joueur s'y afficheront--> 
+                    <div id="score"> </div>  <!--score sy'affichera  --> 
+                </div>
+
+                <button id="btn-rejouer" onclick="reset(this)">Rejouer</button>
+            </article>
+        </section>
+    </main>
+
+   
+    <script src="assets/index.js"></script>
+</body>
+
+</html>

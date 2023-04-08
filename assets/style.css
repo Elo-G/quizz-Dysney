@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Mouse Memoirs", sans-serif;
+  background-image: url("../images/backgroundDisney3.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+
+}
+
+/* HEADER */
+
+#banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #339ad252;
+  height: 150px;
+  border: solid 1px;
+  color: white;
+}
+
+h1{
+  height: 30px;  
+  color: goldenrod;
+  font-size: 60px;
+  text-shadow: 1px 2px 3px black;
+}
+
+/* MAIN */
+
+main {
+  font-size: xx-large;
+  height: 727px;
+}
+
+
+#containerH1 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#Quizz {
+  display: flex;
+  flex-direction: column;
+}
+
+#container-h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+#timer{
+  color:goldenrod;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px !important;
+  text-shadow: 1px 2px 3px black;
+}
+
+#Q {
+  margin-bottom: 10px;
+  text-align: center;
+  color: goldenrod;
+  font-size: 50px;
+  margin-top: 5px !important;
+  text-shadow: 1px 2px 3px black;
+}
+
+.buttonstyle{
+  display: flex;
+  justify-content: center;
+}
+
+.buttonstyle button {
+  background-color: #00122a;
+  width: 190px;
+  height: 190px;
+  margin: 15px;
+  border-color: white;
+  border-radius: 100px;
+  opacity: 0.8;
+}
+
+button:hover {
+  background-color: #00122a;
+  background-image: url("../images/clochette.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+
+.choicereponse {
+  padding-top: 29px;
+  letter-spacing: 1px;
+  opacity: 1;
+  font-family: "Mouse Memoirs", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 2px 3px black;
+}
+
+#div-rep{
+  background-color: #00122aa2;
+  margin-left: 24%;
+  margin-right: 24%;
+  border-radius: 10px;
+}
+
+#btn-rejouer{
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 25px;
+  background-color: #00122a;
+  color: white;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 10px;
+  border: solid 1px;
+  background-image: none;
+  width: 80px;
+}
+
+#btn-rejouer:hover{
+  background-color: white;
+  color: #00122a;
+}
+
+#theGoodanswerIs {
+  color:crimson;
+  text-align: center;
+  text-shadow: 1px 2px 3px black;
+}
+
+#score {
+  color: goldenrod;
+  text-align: center;
+  text-shadow: 1px 2px 3px black;
+}

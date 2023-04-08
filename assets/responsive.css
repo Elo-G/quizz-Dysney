@@ -1,0 +1,147 @@
+
+/*RESPONSIVE format i pad mini air horizontal et vertical
+et I phone 6,7,8 plus
+
+/*------------------@media(max-width: 1024px)I pad mini (à l'horizontal)--------------*/
+
+@media(max-width: 1024px){
+
+    
+    main{
+        height: 566px;
+ }
+
+ #timer{
+    font-size: 25px;
+
+ }
+
+ #Q{
+    font-size: 40px;
+    margin-bottom: 60px;
+ }
+ .choicereponse{
+    font-size: 15px;
+ }
+
+ #container-buttonstyle{
+    display: flex;
+    flex-direction: row;
+ }
+
+
+ #btn-rejouer{
+  
+   margin-left: 405px;
+   margin-right: 335px;
+   
+ }
+ 
+}
+
+
+
+/*-----------@media(max-width: 768px)I pad mini (à la verticale)----------------------*/
+
+@media(max-width: 768px){
+body{
+    background-image: url("../images/backgroundDisney4.jpg");
+
+}
+
+main{
+    height: 822px;
+}
+
+#container-buttonstyle{
+    display: flex;
+    flex-direction: column;
+ }
+
+ 
+#btn-rejouer{
+  
+   margin-left: 300px;
+   margin-right: 300px;
+   
+ }
+ 
+}
+
+/*-------------------@media(max-width: 414px)I phone 6,7,8 Plus-------------*/
+
+@media(max-width: 414px){
+   #donald img{
+      width: 90px;
+      height: 90px;
+  }
+
+  h1{
+      font-size: 40px;
+  }
+
+  #banner{
+height:100px;
+  }
+
+ 
+    main{
+        height: 584px;
+    }
+
+    #section{
+      margin-top: 0 px;
+    }
+
+    #Q{
+      width:300px;
+        font-size: 23px;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+     }
+
+     button:hover {
+     background-position:230px ;
+      background-size: 30%;
+     
+    }
+
+     .buttonstyle{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .buttonstyle button {
+        width: 300px;
+        height: 70px;
+        margin: 10px;
+        border-radius: 10px;
+        
+      }
+
+      
+     .choicereponse{
+        padding: 0;
+     }
+
+     #div-rep{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     }
+
+     #theGoodanswerIs{
+      font-size: 23px;
+   }
+
+     #btn-rejouer{
+        width: 30%;
+   margin-left: 120px;
+   margin-right: 120px;
+   
+ 
+     }
+}
+
+
+
